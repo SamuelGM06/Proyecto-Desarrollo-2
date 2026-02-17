@@ -1,0 +1,44 @@
+{"data": [
+    {
+        "Nombre": "pass4556",
+        "Id": 0,
+        "Puntaje": 0,
+        "Password": "PEPE"
+    },
+    {
+        "Nombre": "1324",
+        "Id": 1,
+        "Puntaje": 0,
+        "Password": "agsd"
+    },
+    {
+        "Nombre": "josefa",
+        "Id": 2,
+        "Puntaje": 0,
+        "Password": "123"
+    },
+    {
+        "Nombre": "Isaac",
+        "Id": 3,
+        "Puntaje": 39700,
+        "Password": "pploca78"
+    },
+    {
+        "Nombre": "A",
+        "Id": 4,
+        "Puntaje": 30700,
+        "Password": "1"
+    },
+    {
+        "Nombre": "Samuel",
+        "Id": 5,
+        "Puntaje": 29200,
+        "Password": "1234"
+    },
+    {
+        "Nombre": "Admin",
+        "Id": 6,
+        "Puntaje": 5600,
+        "Password": "1234"
+    }
+]}
