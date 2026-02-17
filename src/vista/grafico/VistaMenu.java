@@ -18,7 +18,6 @@ public class VistaMenu extends JFrame {
     private JButton btnActualizar;
     private JButton btnConfiguracion;
     private JButton btnSalir;
-    private JButton btnIniciarJuego;
 
    
     private JList<Usuario> listaPuntajes;
@@ -68,13 +67,7 @@ public class VistaMenu extends JFrame {
 
       
 
-        btnIniciarJuego = new JButton("Iniciar Juego");
-        btnIniciarJuego.setBounds(263, 168, 144, 23);
-        btnIniciarJuego.setBackground(azulOscuro);
-        btnIniciarJuego.setForeground(Color.YELLOW);
-        btnIniciarJuego.setFont(new Font("GamePocket", Font.PLAIN, 12));
-        contentPane.add(btnIniciarJuego);
-        contentPane.setComponentZOrder(btnIniciarJuego, 0);
+       
 
         btnInsertar = new JButton("INSERTAR");
         btnInsertar.setBounds(263, 204, 144, 23);
@@ -181,12 +174,11 @@ public void imprimirList(Usuario[] u) {
     public JButton getBtnActualizar() { return btnActualizar; }
     public JButton getBtnConfiguracion() { return btnConfiguracion; }
     public JButton getBtnSalir() { return btnSalir; }
-    public JButton getBtnIniciarJuego() { return btnIniciarJuego; }
+    
 
  
 
     public void setActionListener(ActionListener listener) {
-        btnIniciarJuego.addActionListener(listener);
         btnInsertar.addActionListener(listener);
         btnMostrar.addActionListener(listener);
         btnActualizar.addActionListener(listener);
